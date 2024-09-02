@@ -21,5 +21,12 @@ public class HelloWorld {
             int sum = age + number;
             System.out.println("In 10 years you will be: " + sum);
             s.close();
+           int i = 0;
+            while ( i < 10) {
+
+                System.out.println("*");
+                i+= 1;
+
+            }
     }
 }
