@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import javax.swing.*;
 public class Exercises {
     public static void main(String[] args) {
@@ -78,11 +80,86 @@ System.out.println(sum);
 */
 
 //1.18
+/*
 String originalString = "Hej jag heter Alma";
 int n = originalString.length();
 System.out.println("Meningen: " + originalString + " har " + n + " antal bokstäver.");
 
+*/
 
-
+//---------------------------------------------------------------------------------------------
+//E2
+//2.4
+/*for (int i = 0; i <= 10; i++){
+System.out.println(i);
+} */
+/*
+int i = 0;
+while (i <=20 ) {
+  i++;
+  if (i%2 ==0) {
+    System.out.println(i);
   }
+}
+  */
+/*
+for (int i = 5, j= 1; j<=10; j++) {
+ System.out.println(i*j);
+}
+ */
+/*
+
+ int i = 10;
+ while (i>0){
+  System.out.println(i);
+  i--;
+ }
+*/
+/*
+for (int i = 0, j = 0; i<20; i++) {
+  if (i%2 !=0) {
+    j = i+ j;
+    System.out.println(j);
+  }
+*/
+
+
+//------------------------------------------------------------------------------------------------------
+//Challenges E2
+//C2.1 A
+/*
+int i =1;
+int j = 1;
+int sum = 0;
+for (i=1, j=1;i<=10; i++) {
+  for (j = 1; j<= 10; j++) {
+    sum = i*j;
+    System.out.println(sum); 
+  }
+}
+  */
+
+//C2.1 B
+/*
+int temp =0;
+int rows = 5;
+for(int i = 1; i<=rows; i++) {
+  System.out.println("");
+  for(int j =1; j<=i; j++) {
+    System.out.print(j);
+    temp = j;
+  }
+  for (int k = temp - 1; k > 0; k--){ 
+    System.out.print(k); 
+    }
+}
+    */
+
+
+
+
+
+
+
+}
 }
