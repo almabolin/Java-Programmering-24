@@ -156,8 +156,32 @@ for(int i = 1; i<=rows; i++) {
     */
 
 
+//C2.2 
+/*
+int rows2 = 3;
+int rows = 5;
+String star ="*";
 
+for (int k =1; k<=rows2; k++) {
+  System.out.println("");
+  for (int l =1; l<=k; l++) {
+    
+  
+for(int i = 1; i<=rows; i++) {
+  System.out.println("");
 
+  
+  for(int j =1; j<=i;j++) {
+    System.out.print(star );
+
+  }
+
+  }
+}
+}
+
+//EJ FÄRDIG
+*/
 
 
 
