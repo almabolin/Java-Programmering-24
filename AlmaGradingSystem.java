@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GradingSystem {
+public class AlmaGradingSystem {
    public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
        char actualGrade = 'C';

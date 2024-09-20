@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import javax.swing.*;
-public class Exercises {
+public class AlmaExercises {
     public static void main(String[] args) {
 
 //E1 1.11//
@@ -182,6 +182,8 @@ for(int i = 1; i<=rows; i++) {
 
 //EJ FÄRDIG
 */
+
+
 
 
 
