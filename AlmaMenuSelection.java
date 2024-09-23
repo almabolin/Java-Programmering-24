@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MenuSelection {
+public class AlmaMenuSelection {
    public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
        

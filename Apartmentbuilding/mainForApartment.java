@@ -19,14 +19,14 @@ public class mainForApartment {
         int choicelevel = s.nextInt();
 
         System.out.println("Enter if the family is big or small: ");
-        String choicefamilySize = s.nextLine();
+        String choicefamilySize = s.next();
 
         System.out.println("Enter True or False if the family is a disturbance to the others in the apartmentbuilding :");
         boolean choicedisturbing = s.nextBoolean();
-
         Apartments levelNew = new Apartments(choicelevel, choicefamilySize, choicedisturbing);
         Apartments.printApartments(levelNew);
-
+        break;
+        
         case 2:
         System.out.println("On which apartment would you like to print the details?");
         int choice2 = s.nextInt();
