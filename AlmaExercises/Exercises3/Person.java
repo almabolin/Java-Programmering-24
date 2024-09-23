@@ -1,4 +1,4 @@
-package AlmaE3;
+package AlmaExercises.Exercises3;
 
 public class Person {
     String name;

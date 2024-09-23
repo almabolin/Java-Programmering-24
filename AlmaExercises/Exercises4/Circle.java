@@ -1,4 +1,4 @@
-package AlmaE3.Exercises4;
+package AlmaExercises.Exercises4;
 
 public class Circle {
     public int radius = 10;
@@ -8,7 +8,6 @@ public class Circle {
     double area = 3.14 * (radius*radius);
     System.out.println("Area of circle is " + area);
     return area;
-    
     }
 
     public double calcCircumference(){

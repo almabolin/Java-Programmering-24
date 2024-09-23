@@ -1,4 +1,4 @@
-package AlmaE3.Exercises4;
+package AlmaExercises.Exercises4;
 
 public class Rectangle {
     public int length = 5;
@@ -11,6 +11,8 @@ public class Rectangle {
     }
     
     public double calcPerimeter(){
-        double perimeter 
+        double perimeter = (length + height) *2;
+        System.out.println("The perimeter is " + perimeter);
+        return perimeter;
     }
 }

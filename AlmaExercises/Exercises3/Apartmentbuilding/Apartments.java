@@ -1,4 +1,4 @@
-package Apartmentbuilding;
+package AlmaExercises.Exercises3.Apartmentbuilding;
 
 public class Apartments {
     int level;

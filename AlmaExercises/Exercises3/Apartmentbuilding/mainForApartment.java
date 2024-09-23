@@ -1,4 +1,4 @@
-package Apartmentbuilding;
+package AlmaExercises.Exercises3.Apartmentbuilding;
 import java.util.Scanner;
 
 public class mainForApartment {
@@ -37,10 +37,10 @@ public class mainForApartment {
         case 2:
         Apartments.printApartments(level2);
         break;
+
+       
         }
     }
-
-
 
     }
 }

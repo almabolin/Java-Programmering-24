@@ -1,4 +1,4 @@
-package AlmaE3.Exercises4;
+package AlmaExercises.Exercises4;
 public class MainMethodKeywords {
 
     public static void main(String[] args) {
