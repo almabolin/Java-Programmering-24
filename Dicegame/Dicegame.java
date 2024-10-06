@@ -11,23 +11,25 @@ public class Dicegame {
     System.out.println();
 
     System.out.println("How many rounds would you like to play?");
-    int rounds = scan.nextInt();
+    int Arounds = scan.nextInt();
+    System.out.println("How many sides does the dice have?");
+    int Asides = scan.nextInt();
     System.out.println("What is the name of the player?");
-    String name = scan.next();
+    String Aname = scan.next();
 
 //Adding new players and dices
-    player player1 = new player(name);
+    player player1 = new player(Aname);
+    player1.addDie(Asides);
 
-    //Tärningen slumpas inte om vid ny omgång
+//Adding while-loop to create rounds of game
     int currentRound = 1;
-    while(currentRound <= rounds){
+    while(currentRound <= Arounds){
         System.out.println("------------------------------Round " + currentRound + "-------------------------------------");
         System.out.println("Guess the number of the dice: ");
         int guess = scan.nextInt();
         player1.rollDice();
         player1.getDieValue();
         int result = player1.getDieValue();
-        System.out.println("answer " + result);
     
             if (guess == result){
                 System.out.println("You guessed correctly!");
@@ -40,11 +42,13 @@ public class Dicegame {
                     
                 }
                 currentRound++;
+                
             }
+//Print out result after game is finished
+            System.out.println("---------------------------------Game Over--------------------------------------------");
+            System.out.println("Player " + player1.getName() + " has " + player1.getPoints() + " points!");
 
     }
-
-
     }
     
 
